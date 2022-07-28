@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+/* Added custom font */
+body{
+    font-family: 'Uchen', serif !important;
+}
