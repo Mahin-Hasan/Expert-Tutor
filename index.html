@@ -55,6 +55,7 @@
                         aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner  ">
+                    <!-- resized and added gradient to make images responsive -->
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1-gradiant.jpg" class="d-block w-100  " alt="...">
                         <div class="carousel-caption d-flex justify-content-center align-items-center flex-column ">
@@ -226,8 +227,61 @@
             </div>
         </section>
         <!-- Course section end -->
+
+
         <!-- Adding Modal -->
-        \
+        <!-- Start Join Section -->
+        <section style="background:#289BDE;" class="container mt-5 p-5" id="Registration">
+            <div class="row">
+                <div class="col-6 text-center pt-5">
+                    <h1 class="text-white fw-bold">Ready to join?</h1>
+                    <p class="text-white fw-normal">"Join with us on an Exciting journery of becoming your better self."
+                    </p>
+                </div>
+
+                <div class="col-6 text-center pt-5">
+
+                    <button type="button" class=" bg-white fw-bold fs-5 text-info border-0 p-3 rounded"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Modal Form -->
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <button type="submit" class="btn submit-btn">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 
+               ----
+            End of MODAL
+              ----
+         -->
 
         <!-- Section Heading -->
         <section class="container text-center">
@@ -344,8 +398,6 @@
             </div>
         </section>
         <!-- company logo section end -->
-
-
     </main>
     <!-- Adding footer Section -->
     <footer class="container-fluid bg-black p-5 mt-5">
